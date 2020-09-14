@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oswald|Rambla|Staatliches&display=swap');
+body{
+    
+    margin: 0;
+    padding: 0;
+   box-sizing: border-box;
+}
+
+:root{
+    
+    --clr-black:#000000;
+    --clr-white:#ffffff;
+    --clr-border:#ffffff34;
+    --font-prim:'Montserrat', sans-serif;
+    --font-sec:'Rubik', sans-serif;  
+    --font-os:  'Oswald', sans-serif;
+    --font-ram: 'Rambla', sans-serif;
+}
+
+/*Global classes*/
+
+.font-prim{
+    
+    font: normal 400 1.5rem var(--font-prim)
+}
+.font-sec{
+    
+    font: normal 600 2rem var(--font-sec)
+}
+.font-os{
+    font: normal 300 18px var(--font-os);
+}
+.font-ram{
+    font: normal bold 18px var(--font-ram);
+}
+
+.bgcolor-black{
+    background-color: var(--clr-black)
+    
+}
+
+.fz-16px{
+    font-size: 1rem;
+}
+.fz-24px{
+    font-size: 1.5rem;
+}
+.fz-32px{
+    font-size: 2rem;
+}
+.fz-40px{
+    font-size: 2.5rem;
+}
+
+/*end of Global classes*/
+
+main{
+  background-color:#fff1cc;
+  text-align:center;
+  width:50%;
+  height:20rem;
+  position:fixed;
+  top:0;
+  left:25%;
+}
+
+.padd-top{
+  padding-top:3rem;
+}
+
+.btn{
+  background-color:#fff;
+  padding: 1rem 1rem ;
+  border:none;
+  
+}
+
+.btn:hover{
+  background-color:black;
+  color:red;
+  font-weight:bold;
+  text-transform:uppercase;
+  padding: 1.5rem 1.2rem;
+}
+
